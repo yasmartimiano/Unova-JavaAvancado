@@ -1,28 +1,27 @@
 # ☕ Repositório de Estudos: Java Avançado 
 
-Este repositório documenta os exercícios e projetos desenvolvidos como parte do curso **Java Avançado** da **Unova Cursos**.
+Este repositório documenta os exercícios e projetos desenvolvidos como parte do curso **Java Avançado** da **Unova Cursos**.  
 
-O objetivo é solidificar o conhecimento em recursos mais complexos da linguagem, demonstrando proficiência em **Programação Orientada a Objetos (POO)** e a utilização da API padrão do Java.
-
----
-
-## 💻 Tecnologias Utilizadas
-
-* **Linguagem:** Java 23
-* **IDE:** VS Code
-* **Build Tool:** Maven
+O objetivo é solidificar o conhecimento em recursos avançados da linguagem, explorando recursos além da base de POO e aprofundando a utilização da API padrão do Java.  
 
 ---
 
-## 🎯 Tópicos e Conceitos Abordados
+## Tecnologias Utilizadas
 
-Cada pasta e projeto aqui reflete a aplicação prática de conceitos-chave. Os estudos incluem, mas não se limitam a:
+* **Linguagem:** Java 22  
+* **IDE:** VS Code  
+* **Build Tool:** Maven  
 
-* **POO Avançada:** Interfaces, Classes Abstratas, Herança, Polimorfismo.
-* **Estruturas de Dados:** Uso e aplicação das **Collections API** (Listas, Sets, Maps, Filas).
-* **Manipulação de Arquivos (IO/NIO):** Leitura, escrita e processamento de dados em arquivos.
-* **Tratamento de Exceções:** Criação de exceções customizadas e boas práticas de *try-catch-finally*.
-* **Stream API:** Uso de *streams* para manipulação funcional de coleções de dados.
+---
+
+## Tópicos e Conceitos Abordados
+
+Cada módulo reflete a aplicação prática de conceitos-chave em Java Avançado. Os estudos incluem:
+
+*  **Reflection API:** Inspeção e manipulação dinâmica de classes, métodos e atributos em tempo de execução.  
+*  **Generics e Collections:** Uso de tipos genéricos para segurança e flexibilidade, além da aplicação das Collections API (`List`, `Set`, `Map`, `Queue`).  
+*  **Inner Classes:** Criação e utilização de classes internas (anônimas, locais, estáticas e de método) para modularidade e encapsulamento.  
+*  **Programação Concorrente:** Threads, sincronização, executores e boas práticas para lidar com paralelismo.  
 
 ---
 
@@ -32,14 +31,14 @@ Os códigos estão organizados por módulos de estudo para facilitar a navegaç�
 
 | Diretório | Conteúdo |
 | :--- | :--- |
-| `01-POO-Avancado/` | Classes, herança e interfaces complexas. |
-| `02-Collections/` | Exemplos de uso de `ArrayList`, `HashMap`, `HashSet`, etc. |
-| `03-Tratamento-Excecoes/` | Códigos demonstrando a criação e o uso de exceções. |
-| `04-Streams-e-Lambda/` | Exercícios práticos com a Stream API e expressões Lambda. |
+| `01-APIReflection/` | Exemplos práticos de inspeção e manipulação de classes em tempo de execução. |
+| `02-Generics_e_Collection/` | Exercícios com Generics e implementação das principais Collections (`ArrayList`, `HashMap`, `HashSet`, etc.). |
+| `03-InnerClass/` | Exemplos de uso de classes internas (anônimas, locais, estáticas e de método). |
+| `04-ProgConcorrente/` | Códigos de programação concorrente com threads, sincronização e executores. |
 
 ---
 
-## 🛠 Como Executar
+##  Como Executar
 
 Para executar os projetos, siga os passos abaixo:
 
